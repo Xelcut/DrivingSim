@@ -1,0 +1,1 @@
+gcc -o App src/app.c src/window.c src/glad.c src/gameRenderer.c src/shaders.c src/car.c $(pkg-config --cflags --libs glfw3)
